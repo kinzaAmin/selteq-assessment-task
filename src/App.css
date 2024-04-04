@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Style for table head */
+thead th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Style for table body */
+tbody tr {
+  border-bottom: 1px solid #ddd;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Style for table cells */
+td {
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Style for draggable items */
+.draggable-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style for dragged-over item */
+.dragged-over {
+  background-color: #f7f7f7;
+}
+
+/* Style for delete button */
+.delete-button {
+  background-color: #ff7f7f;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for edit button */
+.edit-button {
+  background-color: #7fbfff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for form input */
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Style for form submit button */
+.submit-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
 }
